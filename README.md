@@ -1,4 +1,4 @@
-# ⚡Loaders
+# ⚡Flutter active loaders
 
 Custom widgets and components ready to use under your awesome projects!
 
@@ -21,14 +21,6 @@ dependencies:
 If you encounter any problems feel free to open an issue. If you feel the library is
 missing a feature, please raise a ticket on Github and I'll look into it.
 Pull request are also welcome.# loaders
-
-
-# LoadingIndicator
-![](https://github.com/TinoGuo/loading_indicator/workflows/Flutter%20Build%20Test%20CI/badge.svg?branch=master)
-[![pub package](https://img.shields.io/pub/v/loading_indicator.svg)](https://pub.dev/packages/loading_indicator)
-![GitHub top language](https://img.shields.io/github/languages/top/TinoGuo/loading_indicator)
-
-
 
 ## Animation types
 
