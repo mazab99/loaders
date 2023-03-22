@@ -1,6 +1,6 @@
-name: loaders
-description: A starting point for Dart libraries or applications.
-version: 1.0.0
+name: flutter_active_loaders
+description: package to show loaders.
+version: 2.0.0
 homepage: https://github.com/mazab99/loaders
 
 environment:
@@ -9,7 +9,8 @@ environment:
 dependencies:
   flutter:
     sdk: flutter
-
+  async: ^2.8.2
+  collection: ^1.16.0
 
 dev_dependencies:
   flutter_lints: ^2.0.1

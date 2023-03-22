@@ -1,8 +1,8 @@
 /// Support for doing something awesome.
 ///
 /// More dartdocs go here.
-library loaders;
+library flutter_active_loaders;
 
-export 'src/loaders_base.dart';
+export 'src/loaders.dart';
 
 // TODO: Export any libraries intended for clients of this package.
