@@ -6,7 +6,7 @@ Custom widgets and components ready to use under your awesome projects!
 
 ```yaml
 dependencies:
-  flutter_loaders: ^<latest_version>
+  flutter_active_loaders: ^<latest_version>
 ```
 
 
@@ -28,14 +28,7 @@ Pull request are also welcome.# loaders
 [![pub package](https://img.shields.io/pub/v/loading_indicator.svg)](https://pub.dev/packages/loading_indicator)
 ![GitHub top language](https://img.shields.io/github/languages/top/TinoGuo/loading_indicator)
 
-A collection of out of the box loading animations written in pure dart, no extra dependency, inspired by [loaders.css](https://github.com/ConnorAtherton/loaders.css) and [NVActivityIndicatorView](https://github.com/ninjaprox/NVActivityIndicatorView).
 
-
-## Demo
-
-Now, you can click [this site](https://tinoguo.github.io/loading_indicator/) to preview.**3D effect will be invalid in web.**
-
-![](gif/demo_2021_07_18_02.gif)
 
 ## Animation types
 
@@ -52,37 +45,17 @@ Now, you can click [this site](https://tinoguo.github.io/loading_indicator/) to 
 |33. audioEqualizer | 34. circleStrokeSpin|
 
 ## Installing
-Install the latest version from [pub](https://pub.dev/packages/loading_indicator)
+Install the latest version from [pub](https://pub.dev/packages/flutter_active_loaders)
 
 ## Usage
 Simple but powerful parameters
 
 ```
 LoadingIndicator(
-    indicatorType: Indicator.ballPulse, /// Required, The loading type of the widget
-    colors: const [Colors.white],       /// Optional, The color collections
-    strokeWidth: 2,                     /// Optional, The stroke of the line, only applicable to widget which contains line
-    backgroundColor: Colors.black,      /// Optional, Background of the widget
-    pathBackgroundColor: Colors.black   /// Optional, the stroke backgroundColor
+    indicatorType: Indicator.ballPulse, 
+    colors: const [Colors.white],       
+    strokeWidth: 2,                  
+    backgroundColor: Colors.black,      
+    pathBackgroundColor: Colors.black   
 )
-```
-
-[中文版](README_CN.md)
-
-## License
-
-```text
-Copyright 2019 Tino Guo.
-
-Licensed under the Apache License, Version 2.0 (the "License");
-you may not use this file except in compliance with the License.
-You may obtain a copy of the License at
-
-   http://www.apache.org/licenses/LICENSE-2.0
-
-Unless required by applicable law or agreed to in writing, software
-distributed under the License is distributed on an "AS IS" BASIS,
-WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
-See the License for the specific language governing permissions and
-limitations under the License.
 ```
