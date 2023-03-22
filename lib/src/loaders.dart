@@ -76,7 +76,7 @@ enum Indicator {
 }
 
 /// Entrance of the loading.
-class LoadingIndicator extends StatelessWidget {
+class FlutterActiveLoader extends StatelessWidget {
   /// Indicate which type.
   final Indicator indicatorType;
 
@@ -93,7 +93,7 @@ class LoadingIndicator extends StatelessWidget {
   /// Animation status, true will pause the animation, default is false
   final bool pause;
 
-  const LoadingIndicator({
+  const FlutterActiveLoader({
     Key? key,
     required this.indicatorType,
     this.colors,
@@ -107,7 +107,7 @@ class LoadingIndicator extends StatelessWidget {
   Widget build(BuildContext context) {
     if (indicatorType == Indicator.circleStrokeSpin && pause) {
       debugPrint(
-          "LoadingIndicator: it will not take any effect when set pause:true on ${Indicator.circleStrokeSpin}");
+          "FlutterActiveLoader: it will not take any effect when set pause:true on ${Indicator.circleStrokeSpin}");
     }
     List<Color> safeColors = colors == null || colors!.isEmpty
         ? [Theme.of(context).primaryColor]

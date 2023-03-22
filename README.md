@@ -43,7 +43,7 @@ Install the latest version from [pub](https://pub.dev/packages/flutter_active_lo
 Simple but powerful parameters
 
 ```
-LoadingIndicator(
+FlutterActiveLoader(
     indicatorType: Indicator.ballPulse, 
     colors: const [Colors.white],       
     strokeWidth: 2,                  

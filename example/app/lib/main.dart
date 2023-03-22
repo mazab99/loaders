@@ -17,7 +17,7 @@
 //   @override
 //   Widget build(BuildContext context) {
 //     return MaterialApp(
-//       title: 'LoadingIndicator example',
+//       title: 'FlutterActiveLoader example',
 //       debugShowCheckedModeBanner: false,
 //       home: MainWidget(),
 //     );
@@ -39,7 +39,7 @@
 //             body: Padding(
 //               padding: const EdgeInsets.all(64),
 //               child: Center(
-//                 child: LoadingIndicator(
+//                 child: FlutterActiveLoader(
 //                   indicatorType: indicator,
 //                   colors: _kDefaultRainbowColors,
 //                   strokeWidth: 4.0,
@@ -135,7 +135,7 @@
 //                 children: <Widget>[
 //                   Padding(
 //                     padding: const EdgeInsets.all(16),
-//                     child: LoadingIndicator(
+//                     child: FlutterActiveLoader(
 //                       colors: _kDefaultRainbowColors,
 //                       indicatorType: Indicator.values[index],
 //                       strokeWidth: 3,
