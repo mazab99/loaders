@@ -1,6 +1,6 @@
 name: flutter_active_loaders
 description: package to show loaders.
-version: 3.0.0
+version: 7.1.0
 homepage: https://github.com/mazab99/loaders
 
 environment:
@@ -13,6 +13,31 @@ dependencies:
   collection: ^1.16.0
 
 dev_dependencies:
-  flutter_lints: ^2.0.1
+  recase: ^4.0.0
+  args: ^2.3.0
   flutter_test:
     sdk: flutter
+  version: ^2.0.0
+  ansicolor: ^2.0.1
+  flutter_lints: ^1.0.0
+  pub_semver: ^2.1.1
+
+flutter:
+  fonts:
+    - family: FontAwesomeBrands
+      fonts:
+        - asset: lib/src/asowomeIcons/fonts/fa-brands-400.ttf
+          weight: 400
+    - family: FontAwesomeRegular
+      fonts:
+        - asset: lib/src/asowomeIcons/fonts/fa-regular-400.ttf
+          weight: 400
+    - family: FontAwesomeSolid
+      fonts:
+        - asset: lib/src/asowomeIcons/fonts/fa-solid-900.ttf
+          weight: 900
+
+
+
+          # dart pub publish --dry-run
+          # dart pub publish
